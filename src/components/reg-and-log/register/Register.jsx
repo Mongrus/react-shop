@@ -29,7 +29,7 @@ const Register = () => {
       setMail('');
       setPass('');
       alert('Вы успешно зарегистрировались !');
-      navigate('/personal-area/login');
+      navigate('/react-shop/personal-area/login');
     }
   }, [useForm, setUseForm, setSub, navigate, newObj, sub]);
   return (

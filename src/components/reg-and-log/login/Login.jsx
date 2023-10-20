@@ -18,7 +18,7 @@ const Login = () => {
     console.log(positively);
     if (positively) {
       alert(`Добро пожаловать ${login}`);
-      navigate('/personal-area/personal');
+      navigate('/react-shop/personal-area/personal');
       setUserActive(true);
       setUserInfo(positively);
     } else {

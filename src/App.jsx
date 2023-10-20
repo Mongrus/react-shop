@@ -48,7 +48,7 @@ function App() {
           }}
         >
           <Routes>
-            <Route path="/" element={<MainLayout />}>
+            <Route path="/react-shop" element={<MainLayout />}>
               <Route index element={<Shop />}></Route>
               <Route path="posts" element={<Posts />}></Route>
               <Route path="posts/:id" element={<Post />}></Route>
